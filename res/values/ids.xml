@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mdContent" />
+    <item type="id" name="mdMenu" />
+    <item type="id" name="md__content" />
+    <item type="id" name="md__menu" />
+    <item type="id" name="md__drawer" />
+    <item type="id" name="mdActiveViewPosition" />
+    <item type="id" name="drawer">false</item>
+    <item type="id" name="sidelistview">false</item>
+    <item type="id" name="sharedrawer">false</item>
+    <item type="id" name="sharelistview">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="repix_gl">false</item>
+    <item type="id" name="webviewlayout">false</item>
+    <item type="id" name="webview">false</item>
+    <item type="id" name="splash">false</item>
+    <item type="id" name="sideicon">false</item>
+    <item type="id" name="sidelabel">false</item>
+    <item type="id" name="searchView">false</item>
+    <item type="id" name="whatsNewClose">false</item>
+    <item type="id" name="downloadCamu">false</item>
+    <item type="id" name="editor_reset">false</item>
+    <item type="id" name="editor_undo">false</item>
+    <item type="id" name="editor_redo">false</item>
+    <item type="id" name="editor_save">false</item>
+    <item type="id" name="share_gallery">false</item>
+    <item type="id" name="share_more">false</item>
+    <item type="id" name="editor_store_close">false</item>
+</resources>

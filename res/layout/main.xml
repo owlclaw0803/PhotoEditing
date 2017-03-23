@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:animateLayoutChanges="true"
+  	xmlns:android="http://schemas.android.com/apk/res/android" 
+  	xmlns:app="http://schemas.android.com/apk/res-auto">
+    <net.simonvt.menudrawer.LeftDrawer 
+        android:orientation="vertical" 
+        android:id="@id/drawer" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        app:mdMenuSize="@dimen/sidemenu_width">
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:id="@id/mdMenu" 
+            android:background="@color/sideMenuBackground" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+            <it.repix.android.LeftSideListView 
+                android:id="@id/sidelistview" 
+                android:focusableInTouchMode="true" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:divider="@null" 
+                android:dividerHeight="0.0dip" />
+        </LinearLayout>
+        <net.simonvt.menudrawer.RightDrawer 
+            android:orientation="vertical" 
+            android:id="@id/sharedrawer" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            app:mdMenuSize="@dimen/sidemenu_width">
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:background="@color/sideMenuBackground" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent">
+                <it.repix.android.RightSideListView 
+                    android:id="@id/sharelistview" 
+                    android:focusableInTouchMode="true" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:divider="@null" 
+                    android:dividerHeight="0.0dip" />
+            </LinearLayout>
+            <FrameLayout 
+                android:id="@id/container" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" 
+                android:animateLayoutChanges="true">
+                <it.repix.android.GL2JNIView 
+                    android:id="@id/repix_gl" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="fill_parent" />
+                <View 
+                    android:background="@android:color/transparent" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="fill_parent" />
+                <LinearLayout 
+                    android:orientation="vertical" 
+                    android:id="@id/webviewlayout" 
+                    android:background="@drawable/background" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="fill_parent">
+                    <it.repix.android.RepixWebView 
+                        android:id="@id/webview" 
+                        android:visibility="invisible" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent" />
+                </LinearLayout>
+            </FrameLayout>
+        </net.simonvt.menudrawer.RightDrawer>
+    </net.simonvt.menudrawer.LeftDrawer>
+    <LinearLayout 
+        android:orientation="vertical"
+        android:id="@id/splash" 
+        android:background="#ffdf4d4d" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_centerInParent="true" 
+        android:alpha="1.0">
+        <ImageView 
+            android:layout_gravity="center" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="@dimen/startup_logo_top" 
+            android:src="@drawable/splash" 
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+</FrameLayout>

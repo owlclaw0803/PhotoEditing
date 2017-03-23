@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="sm_item_sel">#ffdf4d4d</item>
+    <item type="drawable" name="sm_item_uns">#fff1ede8</item>
+    <item type="drawable" name="transparent_drawable">@android:color/transparent</item>
+</resources>

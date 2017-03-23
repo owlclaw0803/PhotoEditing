@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget" />
+    <style name="Widget.MenuDrawer" parent="@style/Widget">
+        <item name="mdContentBackground">?android:windowBackground</item>
+        <item name="mdMenuBackground">@color/md__defaultBackground</item>
+    </style>
+    <style name="repix" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/repix.actionbar</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_stripes</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+    </style>
+    <style name="repix.fades" parent="@style/repix">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+    </style>
+    <style name="repix.actionbar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:textColor">#fff0e9e3</item>
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="android:height">45.0dip</item>
+    </style>
+</resources>

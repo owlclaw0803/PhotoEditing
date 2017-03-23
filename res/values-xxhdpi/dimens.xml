@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="startup_logo_top">215.0px</dimen>
+    <dimen name="navbar_height">135.0px</dimen>
+    <dimen name="navbar_fontsize">54.0px</dimen>
+    <dimen name="sidemenu_width">840.0px</dimen>
+    <dimen name="sidemenu_heading_height">75.0px</dimen>
+    <dimen name="sidemenu_heading_fontsize">42.0px</dimen>
+    <dimen name="sidemenu_item_height">189.0px</dimen>
+    <dimen name="sidemenu_item_fontsize">54.0px</dimen>
+    <dimen name="sidemenu_icon_width">60.0px</dimen>
+    <dimen name="sidemenu_icon_height">60.0px</dimen>
+    <dimen name="sidemenu_icon_margin">75.0px</dimen>
+    <dimen name="btn_stripes_width">129.0px</dimen>
+    <dimen name="btn_stripes_height">117.0px</dimen>
+    <dimen name="btn_stripes_margin_left">24.0px</dimen>
+    <dimen name="btn_stripes_margin_top">15.0px</dimen>
+</resources>

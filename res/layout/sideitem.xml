@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/sidemenu_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/sidemenu_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/sideicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sidemenu_icon_margin" android:layout_marginRight="@dimen/sidemenu_icon_margin" />
+    <TextView android:textSize="@dimen/sidemenu_item_fontsize" android:textColor="@color/sidemenu_label" android:layout_gravity="center_vertical" android:id="@id/sidelabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0px" android:singleLine="true" />
+</LinearLayout>

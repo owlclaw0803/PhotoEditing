@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Repix</string>
+    <string name="heading_share">Save &amp; Share</string>
+    <string name="heading_starters">Starters</string>
+    <string name="heading_help">Guide</string>
+</resources>

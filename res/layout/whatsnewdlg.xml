@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/actionbar_bg" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#fff0e9e3" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="What's New!" />
+        <ImageButton android:layout_gravity="center|right" android:id="@id/whatsNewClose" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="6.0dip" android:src="@drawable/bar_save" android:scaleType="centerCrop" android:contentDescription="@null" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/downloadCamu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/whats_new" android:scaleType="fitCenter" android:contentDescription="@null" />
+    </LinearLayout>
+</LinearLayout>

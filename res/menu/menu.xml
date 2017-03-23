@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/bar_reset" android:id="@id/editor_reset" android:orderInCategory="80" android:title="Reset" android:showAsAction="always" android:actionBarItemBackground="@android:color/transparent" />
+    <item android:icon="@drawable/bar_undo" android:id="@id/editor_undo" android:orderInCategory="100" android:title="Undo" android:showAsAction="always" android:actionBarItemBackground="@android:color/transparent" />
+    <item android:icon="@drawable/bar_redo" android:id="@id/editor_redo" android:orderInCategory="200" android:title="Redo" android:showAsAction="always" />
+    <item android:icon="@drawable/bar_save" android:id="@id/editor_save" android:orderInCategory="900" android:title="Save" android:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/ic_gallery" android:id="@id/share_gallery" android:title="Save to Gallery" />
+            <item android:id="@id/share_more" android:menuCategory="alternative" android:title="Show more options…">
+                <menu />
+            </item>
+        </menu>
+    </item>
+    <item android:icon="@drawable/bar_store" android:id="@id/editor_store_close" android:orderInCategory="800" android:title="Close Store" android:showAsAction="always" />
+</menu>

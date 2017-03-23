@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/topbar_logo" android:insetLeft="20.0dip" android:insetRight="3.0dip" android:insetTop="1.0dip" android:insetBottom="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
